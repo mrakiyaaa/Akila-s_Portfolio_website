@@ -452,3 +452,43 @@
 }
 
 
+.skill-Box {
+    display: inline-flex;
+    padding: 6px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--BaseIceBlue);
+    color: var(--FadeDarkBlue-2);
+    border-radius: 6.938px;
+    transition: color 0.5s, background-color 0.5s, border-color 0.5s;
+
+    color: var(--fade-dark-blue-2, #161A22);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 19.196px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.384px;
+    text-transform: capitalize;
+    margin-right: 2px;
+}
+
+.skill-Box:hover {
+    border-color: var(--BaseIceBlue);
+    color: var(--BaseIceBlue);
+    background-color: var(--FadeDarkBlue);
+}
+
+
+.sec-line-skillset {
+    margin-top: 8px;
+}
+
+.exploreBtn-aboutMe-Section {
+    text-align: left !important;
+    margin-top: 8%;
+    margin-left: -1px;
+}
+
