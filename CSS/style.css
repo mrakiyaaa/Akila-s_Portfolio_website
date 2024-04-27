@@ -77,12 +77,19 @@
     color: var(--colorWhite);
     font-size: 18px;
   }
+
+
+  html {
+    scroll-behavior: smooth;
+  }
   
   /* Back To Top Button end */
 
 
   
   /* styles start here */
+
+
 
 /* 
 ========================================================
@@ -122,9 +129,7 @@
   letter-spacing: 1px;
 }
 
-.D-Button-Primary:hover {
-   
-}
+
 
 .navbar-nav {
   text-align: center;
@@ -154,7 +159,7 @@
 
 
 
-
+/* navbar lets talk btn  */
 
 .A-nav-btn-talk {
     cursor: pointer;
@@ -163,7 +168,7 @@
     letter-spacing: 0.707px;
     text-transform: capitalize;
     font-family: var(--mainfont);
-    transition: all .2s;
+    transition: 0.5s;
     padding: 8px 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -197,3 +202,187 @@
       margin-left: -30px;
   }
 
+
+
+  
+/* 
+========================================================
+                  head title and img section
+========================================================
+*/
+
+.img-right-head {
+    text-align: right;
+}
+
+.head-section-title {
+    margin-top: 10%;
+}
+
+.head-title-1 {
+    color: #FFF;
+
+    text-align: left;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.138px;
+    text-transform: capitalize;
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+.name-head {
+    color: var(--BaseIceBlue);
+    font-size: 75px;
+    margin-left: 5%;
+    text-align: left;
+}
+
+/* .col-md-6 {
+    width: auto;
+} */
+
+.caption-head {
+    color: var(--Base-Ice-Blue, #CAE9FF);
+    text-align: left;
+    font-family: Poppins;
+    font-size: 17.762px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.71px;
+    text-transform: lowercase;
+    margin-left: 5%;
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+
+
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--BaseIceBlue); }
+  }
+
+
+
+
+
+
+
+  /* button my works */
+
+  .button {
+    line-height: 1;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: .75rem;
+    background-color: var(--FadeDarkBlueLow);
+    color: var(--BaseIceBlue);
+    border-radius: 10rem;
+    font-weight: 600;
+    padding: .75rem 1.5rem;
+    padding-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background-color .3s;
+  }
+  
+  .button__icon-wrapper {
+    flex-shrink: 0;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    color: var(--clr);
+    background-color: var(--BaseIceBlue);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  
+  .button:hover {
+    background-color: var(--FadeDarkBlue);
+  }
+  
+  .button:hover .button__icon-wrapper {
+    color: #000;
+  }
+  
+  .button__icon-svg--copy {
+    position: absolute;
+    transform: translate(-150%, 150%);
+  }
+  
+  .button:hover .button__icon-svg:first-child {
+    transition: transform .3s ease-in-out;
+    transform: translate(150%, -150%);
+  }
+  
+  .button:hover .button__icon-svg--copy {
+    transition: transform .3s ease-in-out .1s;
+    transform: translate(0);
+  }
+
+  .myworks-btn-head {
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+
+
+
+
+
+  /* 
+========================================================
+                  head bar section
+========================================================
+*/
+
+.head-bar-panel {
+    height: auto;
+    width: auto;
+    padding-bottom: 18px;
+    padding-top: 10px;
+    background-color: var(--FadeDarkBlueLow);
+    margin-top: 5%;
+    border-radius: 27.49px;
+}
+
+.panel-content {
+    text-align: center;
+}
+
+/* .labels-content {
+    margin-top: 10px;
+    text-align: center;
+}*/
+
+.labels-content-5 {
+    margin-top: 10px;
+} 
+
+.labels-content-4 {
+    margin-top: 5px;
+} 
