@@ -386,3 +386,69 @@
 .labels-content-4 {
     margin-top: 5px;
 } 
+
+
+
+
+
+  /* 
+========================================================
+                  About section
+========================================================
+*/
+
+.about-section {
+    margin-top: 10%;
+}
+
+.about-sec-aboutMe-text {
+    color: #FFF;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 19.196px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.384px;
+    text-transform: capitalize;
+    margin-top: 10%;
+}
+
+.about-sec-name-text {
+    color: #FFF;
+
+    text-align: left;
+    font-family: Poppins;
+    font-size: 49.288px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: -10px;
+    line-height: normal;
+    letter-spacing: 0.986px;
+    text-transform: capitalize;
+}
+
+.about-sec-name-Span-text {
+    color: var(--BaseIceBlue);
+    font-family: Poppins;
+    font-size: 49.288px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.986px;
+    text-transform: capitalize;
+}
+
+.about-sec-dis-text {
+    color: #FFF;
+    margin-top: 5%;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+}
+
+
