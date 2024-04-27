@@ -237,6 +237,7 @@
 .name-head {
     color: var(--BaseIceBlue);
     font-size: 75px;
+    font-weight: 700;
     margin-left: 5%;
     text-align: left;
 }
@@ -246,10 +247,10 @@
 } */
 
 .caption-head {
-    color: var(--Base-Ice-Blue, #CAE9FF);
+    color: #34FCF0;
     text-align: left;
     font-family: Poppins;
-    font-size: 17.762px;
+    font-size: 13.9px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
