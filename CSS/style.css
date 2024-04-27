@@ -64,13 +64,13 @@
   .D-BackToTop {
     height: 50px;
     width: 50px;
-    background-color: var(--colorYellow);
+    background-color: var(--BaseIceBlue);
     border-radius: 50%;
     transition: .2s linear;
   }
   
   .D-BackToTop:hover {
-    background-color: var(--colorBlueMain);
+    background-color: var(--BaseIceBlue);
   }
   
   .ri-arrow-up-fill {
