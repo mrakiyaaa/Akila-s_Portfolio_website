@@ -1,0 +1,15 @@
+/*! Variables start */
+:root {
+    /* Font Styles */
+    --mainfont: "poppins", sans-serif;
+
+    /* Color Variables */
+    --FadeDarkBlue: #0D1016;
+    --FadeDarkBlue-2: #161A22;
+    --FadeDarkBlueLow: #20252D;
+    --BaseIceBlue: #CAE9FF;
+    --colorWhite: #fdfdfd;
+
+}
+
+

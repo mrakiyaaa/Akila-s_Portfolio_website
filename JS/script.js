@@ -16,6 +16,7 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
+
 // When the user clicks on the button, scroll to the top of the document
 mybutton.addEventListener("click", backToTop);
 
@@ -24,3 +25,24 @@ function backToTop() {
   document.documentElement.scrollTop = 0;
 }
 // Back To Top Button end
+
+
+
+
+
+// Show sections with animation when they come into view
+let sections = document.querySelectorAll('section');
+
+window.onscroll = () => {
+  sections.forEach(sec => {
+    let top = window.scrollY;
+    let offset = sec.offsetTop - 150;
+    let height = sec.offsetHeight;
+
+    if (top >= offset && top < offset + height) {
+      sec.classList.add('show-animate');
+    } else {
+      sec.classList.remove('show-animate');
+    }
+  });
+};

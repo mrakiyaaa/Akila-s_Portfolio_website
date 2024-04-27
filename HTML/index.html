@@ -16,6 +16,7 @@
     <!-- External CSS file -->
     <link rel="stylesheet" href="/CSS/style.css" />
     <link rel="stylesheet" href="/CSS/utilities.css">
+    <link rel="stylesheet" href="/CSS/animate.css">
 
     <!-- Utilities Css file
   <link rel="stylesheet" href="/css/utilities.css"> -->
@@ -25,7 +26,6 @@
 
     <!-- Remix icon cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css" />
-
     <!-- Google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,69 +33,79 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 </head>
 
 <body>
 
 
-    <!-- Nav Bars start -->
-    <div class="container-fluid">
-        <div class="container fixed-top navbar-background">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary px-4 py-0 mt-4 d-NavContainerFluid">
-                <a class="navbar-brand" href="/HTML/index.html">
-                    <img src="/Images/Logo/main-logo.svg" alt="MainLogo" class="main-logo" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link D-Active" href="#head-section">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-section">Portfolio</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About me</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                    <div class="d-flex justify-content-center g-4">
-                        <!-- IDs added to the links for JavaScript to reference -->
-
-                        <button class="A-nav-btn-talk text-center">
-                            <span class="nav-talk-btn">let's talk
-                                <svg width="34" height="34" viewBox="0 0 74 74" fill="none"><i class="ri-arrow-right-line"></i>
+   <!-- Nav Bars start -->
+<div class="fixed-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-4 py-0 d-NavContainerFluid">
+        <div class="container">
+            <a class="navbar-brand" href="/HTML/index.html">
+                <img src="/Images/Logo/main-logo.svg" alt="MainLogo" class="main-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-section">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-center align-items-center g-4">
+                    <!-- IDs added to the links for JavaScript to reference -->
+                    <div class="btn-my-resume" data-tooltip="Size: 20Mb">
+                        <div class="btn-my-resume-wrapper">
+                            <div class="text">My Resume</div>
+                            <span class="icon-download">
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em"
+                                    height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17">
+                                    </path>
+                                </svg>
                             </span>
-                            </svg>
-                        </button>
-
+                        </div>
                     </div>
                 </div>
-            </nav>
+            </div>
         </div>
-    </div>
-    <!-- NavBar end -->
+    </nav>
+</div>
+<!-- NavBar end -->
 
 
-    <section class="head-section-title" id="head-section">
+
+
+    
+
+
+    <section class="head-section-title animate__fadeIn " id="head-section">
         <div class="container">
             <div class="row justify-content-center">
 
-                <div class="col-md-6">
+                <div class="col-md-6  ">
                     <h1 class="head-title-1">Hey, I’m </h1>
                     <h1 class="name-head">Akila Lakshitha</h1>
                     <h1 class="caption-head">
@@ -124,7 +134,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 img-right-head">
+                <div class="col-md-6 img-right-head animate__bounceInRight">
                     <img src="/Images/Avatar/head.PNG" alt="Avatar" width="385.01px">
                 </div>
 
@@ -135,32 +145,25 @@
     <section class="head-bar-section">
         <div class="container head-bar-panel">
             <div class="row gx-5 justify-content-center panel-content">
-
-                <div class="col-lg-2 col-md-6 labels-content">
+                <div class="col-lg-2 col-md-6 col-sm-6 labels-content">
                     <img src="/Images/Head-bar-labels/Group 1.svg" alt="label">
                 </div>
-
-                <div class="col-lg-2 col-md-6 labels-content-5">
+                <div class="col-lg-2 col-md-6 col-sm-6 labels-content-5">
                     <img src="/Images/Head-bar-labels/Group 5.svg" alt="label">
                 </div>
-
-                <div class="col-lg-2 col-md-6 labels-content">
+                <div class="col-lg-2 col-md-6 col-sm-6 labels-content">
                     <img src="/Images/Head-bar-labels/Group 3.svg" alt="label">
                 </div>
-
-
-                <div class="col-lg-2 col-md-6 labels-content">
+                <div class="col-lg-2 col-md-6 col-sm-6 labels-content">
                     <img src="/Images/Head-bar-labels/Group 16.svg" alt="label">
                 </div>
-
-                <div class="col-lg-2 col-md-6 labels-content-4">
+                <div class="col-lg-2 col-md-6 col-sm-6 labels-content-4">
                     <img src="/Images/Head-bar-labels/Group 4.svg" alt="label">
                 </div>
-
-
             </div>
         </div>
     </section>
+    
 
     <section class="about-section" id="about-section">
         <div class="container">

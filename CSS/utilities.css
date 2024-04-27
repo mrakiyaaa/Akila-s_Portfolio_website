@@ -1,0 +1,162 @@
+/*! Variables start */
+:root {
+    /* Font Styles */
+    --mainfont: "poppins", sans-serif;
+
+    /* Color Variables */
+    --FadeDarkBlue: #0D1016;
+    --FadeDarkBlue-2: #161A22;
+    --FadeDarkBlueLow: #20252D;
+    --BaseIceBlue: #CAE9FF;
+    --colorWhite: #fdfdfd;
+
+}
+
+
+/* Adjustments for mobile devices */
+@media (max-width: 430px) {
+
+    /* Navbar */
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        margin-right: auto;
+    }
+
+    .navbar-collapse {
+        background-color: var(--FadeDarkBlueLow);
+        padding: 20px 0;
+        position: fixed;
+        top: 56px;
+        /* Adjust this value according to your design */
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9999;
+        overflow-y: auto;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar-collapse.show {
+        transform: translateX(0);
+    }
+
+    .nav-item {
+        padding: 10px 0;
+        border-bottom: 1px solid;
+    }
+
+    .nav-item:last-child {
+        border-bottom: none;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        right: 0;
+        top: 10px;
+        color: var(--BaseIceBlue);
+        margin-right: 60px;
+
+    }
+
+    /* Header section */
+    .head-section-title {
+        padding-top: 56px;
+        /* Adjust this value according to your design */
+    }
+
+    .head-title-1 {
+        text-align: start;
+    }
+
+    .name-head {
+        font-size: 36px;
+        margin-left: 26px;
+    }
+
+    .caption-head {
+        font-size: 16px;
+    }
+
+    .img-right-head {
+        margin-top: 20px;
+    }
+
+    /* About section */
+    .about-section {
+        padding-top: 20px;
+    }
+
+    .about-sec-name-text {
+        font-size: 35px;
+    }
+
+    .about-sec-name-Span-text {
+        font-size: 35px;
+    }
+
+    .about-sec-dis-text {
+        font-size: 12px;
+        margin-right: 45px;
+    }
+
+    .about-sec-aboutMe-text {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .skill-Box {
+        font-size: 16px;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+    }
+
+    .sec-line-skillset {
+        margin-top: 10px;
+    }
+
+    .exploreBtn-aboutMe-Section {
+        margin-top: 20px;
+    }
+
+    .head-bar-panel {
+        padding: 20px 0;
+    }
+
+    .labels-content {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .labels-content img {
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+
+    .labels-content {
+        margin-bottom: 0;
+    }
+
+
+    .head-bar-section {
+        display: none;
+    }
+
+    .caption-head {
+        display: none;
+    }
+
+    .img-right-head {
+        display: none;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
